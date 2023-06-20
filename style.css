@@ -26,6 +26,7 @@ body {
 .list {
     list-style: none;
     text-decoration: none;
+
 }
 
 /* color-correction    ↓↓↓ */
@@ -195,4 +196,18 @@ body {
 .button-bcg:hover,
 .button-color:focus {
     background-color: #404bbf;
+}
+
+.section-4 {
+    background-color: #F4F4FD;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
 }
