@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
     <title>main-page</title>
 </head>
 
@@ -13,91 +18,84 @@
     <!-- header  -->
     <header>
         <nav>
-            <a href="">web <span>studio</span> </a>
-            <ul>
-                <li> <a href="">Studio</a> </li>
-                <li> <a href="">Portfolio</a> </li>
-                <li> <a href="">Contacts</a> </li>
+            <a href="" class="accent-text-color list logo ">web<span class="heading-color">studio</span> </a>
+            <ul class="list">
+                <li> <a href="" class="heading-color list nav">Studio</a> </li>
+                <li> <a href="" class="heading-color list nav">Portfolio</a> </li>
+                <li> <a href="" class="heading-color list nav">Contacts</a> </li>
             </ul>
         </nav>
         <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+            <a href="mailto:info@devstudio.com" class="list address">info@devstudio.com</a>
+            <a href="tel:+11(000)111-11-11" class="list address">+11 (000) 111-11-11</a>
         </address>
 
     </header>
     <main>
 
         <!-- section-banner -->
-        <section>
-            <h1>Effective Solutions
+        <section class="main-bcg">
+            <h1 class="caption">Effective Solutions
                 for Your Business</h1>
-            <button type="button">Order Service</button>
+            <button type="button" class="accent-bcg-color btn-text-correction">Order Service</button>
         </section>
 
         <!-- section our goal  -->
         <section>
-            <h2>our goal</h2>
-            <ul>
+            <h2 hidden class="title">Our goal</h2> <!-- этого тэга нет в макете -->
+            <ul class="list">
                 <li>
-                    <h2>Strategy</h2>
+                    <h3 class="heading-color subtitle  ">Strategy</h3>
                     <p>Our goal is to identify the business
                         problem to walk away with the perfect and creative solution.</p>
                 </li>
                 <li>
-                    <h2>Punctuality</h2>
+                    <h3 class="heading-color  subtitle ">Punctuality</h3>
                     <p>Bring the key message to the brand's audience for the best price within the shortest possible
                         time.
                     </p>
                 </li>
                 <li>
-                    <h2>Diligence</h2>
+                    <h3 class="heading-color subtitle  ">Diligence</h3>
                     <p>Research and confirm brands that present the strongest digital growth opportunities and minimize
                         risk.</p>
                 </li>
                 <li>
-                    <h2>Technologies</h2>
+                    <h3 class="heading-color subtitle  ">Technologies</h3>
                     <p>Design practice focused on digital experiences. We bring forth a deep passion for
                         problem-solving.
                     </p>
                 </li>
 
             </ul>
-
-        </section>
-
-        <!-- What are we doing -->
-        <section>
-            <h2>What are we doing</h2>
+            <h2 class="heading-color title ">What are we doing</h2>
             <img src="./img/main-page/img-1.jpg" alt="screen">
             <img src="./img/main-page/img-2.jpg" alt="application">
             <img src="./img/main-page/img-3.jpg" alt="phone">
-
         </section>
 
-
         <!-- Our Team -->
-        <section>
-            <h2>Our Team</h2> <!-- этого тэга нет в макете -->
-            <ul>
+        <section class="section-bcg-color">
+            <h2 class="heading-color title ">Our Team</h2> <!-- этого тэга нет в макете -->
+            <ul class="list">
                 <li>
                     <img src="./img/main-page/employee-1.jpg" alt="employee" width="264" height="260">
-                    <h3>Mark Guerrero</h3>
+                    <h3 class="heading-color subtitle ">Mark Guerrero</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
                     <img src="./img/main-page/employee-2.jpg" alt="employee" width="264" height="260">
-                    <h3>Tom Ford</h3>
+                    <h3 class="heading-color subtitle ">Tom Ford</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./img/main-page/employee-3.jpg" alt="employee" width="264" height="260">
-                    <h3>Camila Garcia</h3>
+                    <h3 class="heading-color subtitle ">Camila Garcia</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
                     <img src="./img/main-page/employee-4.jpg" alt="employee" width="264" height="260">
-                    <h3>Daniel Wilson</h3>
+                    <h3 class="heading-color subtitle ">Daniel Wilson</h3>
                     <p>UI Designer</p>
                 </li>
             </ul>
@@ -105,8 +103,8 @@
     </main>
 
     <!-- footer -->
-    <footer>
-        <a href="">web <span>studio</span> </a>
+    <footer class="footer-color main-bcg">
+        <a href="" class="accent-text-color list logo">web<span class="footer-color">studio</span> </a>
         <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
 
